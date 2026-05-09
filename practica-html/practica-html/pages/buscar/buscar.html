@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Buscar</title>
+  </head>
+  <body>
+    <header>
+      <h1>Buscar</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="../../index.html">Inicio</a></li>
+        <li><a href="../sobreMi/sobreMi.html">Sobre mí</a></li>
+        <li><a href="../objetivos/objetivos.html">Objetivos</a></li>
+        <li><a href="../intereses/intereses.html">Intereses</a></li>
+        <li><a href="../universidad/universidad.html">Universidad</a></li>
+        <li><a href="../contacto/contacto.html">Contacto</a></li>
+        <li><a href="../buscar/buscar.html">Buscar</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="formulario-busqueda">
+        <h2>Formulario de búsqueda</h2>
+
+        <form method="GET" action="buscar.html">
+          <div>
+            <label for="tema">Tema</label>
+            <input
+              placeholder="Ingresa tu tema"
+              type="text"
+              id="tema"
+              name="tema"
+            />
+          </div>
+
+          <div>
+            <label for="clave">Contraseña</label>
+            <input
+              placeholder="Ingresa tu contraseña"
+              type="password"
+              id="clave"
+              name="clave"
+            />
+          </div>
+
+          <div>
+            <label for="correo">Correo electrónico</label>
+            <input
+              placeholder="Ingresa tu Correo"
+              type="email"
+              id="correo"
+              name="correo"
+            />
+          </div>
+
+          <div>
+            <label for="edad">Edad</label>
+            <input
+              placeholder="tu edad"
+              type="number"
+              id="edad"
+              name="edad"
+              min="15"
+              max="50"
+            />
+          </div>
+
+          <div>
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" />
+          </div>
+
+          <div>
+            <p>Intereses de búsqueda</p>
+            <label
+              ><input type="checkbox" name="interes" value="html" /> HTML</label
+            >
+            <label
+              ><input type="checkbox" name="interes" value="css" /> CSS</label
+            >
+            <label
+              ><input type="checkbox" name="interes" value="javascript" />
+              JavaScript</label
+            >
+          </div>
+
+          <div>
+            <label for="color">Color favorito</label>
+            <input type="color" id="color" name="color" />
+          </div>
+
+          <div>
+            <label for="comentario">Comentarios</label><br />
+            <textarea
+              id="comentario"
+              name="comentario"
+              rows="4"
+              cols="40"
+            ></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Creado por Moises Valencia Ramirez</p>
+      <p>Clase de fundamentos web - HTML Semantico</p>
+      <p>ING. Sistemas</p>
+    </footer>
+  </body>
+</html>
