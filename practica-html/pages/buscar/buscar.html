@@ -12,31 +12,51 @@
     <nav style="background-color: lightblue; padding: 10px">
       <ul style="list-style-type: none; text-align: center">
         <li style="display: inline; margin-right: 10px">
-          <a href="../../index.html" style="color: black">Inicio</a>
+          <a href="../../index.html" style="color: black; text-decoration: none"
+            >Inicio</a
+          >
         </li>
         <li style="display: inline; margin-right: 10px">
-          <a href="../sobreMi/sobreMi.html" style="color: black">Sobre mí</a>
+          <a
+            href="../sobreMi/sobreMi.html"
+            style="color: black; text-decoration: none"
+            >Sobre mí</a
+          >
         </li>
         <li style="display: inline; margin-right: 10px">
-          <a href="../objetivos/objetivos.html" style="color: black"
+          <a
+            href="../objetivos/objetivos.html"
+            style="color: black; text-decoration: none"
             >Objetivos</a
           >
         </li>
         <li style="display: inline; margin-right: 10px">
-          <a href="../intereses/intereses.html" style="color: black"
+          <a
+            href="../intereses/intereses.html"
+            style="color: black; text-decoration: none"
             >Intereses</a
           >
         </li>
         <li style="display: inline; margin-right: 10px">
-          <a href="../universidad/universidad.html" style="color: black"
+          <a
+            href="../universidad/universidad.html"
+            style="color: black; text-decoration: none"
             >Universidad</a
           >
         </li>
         <li style="display: inline; margin-right: 10px">
-          <a href="../contacto/contacto.html" style="color: black">Contacto</a>
+          <a
+            href="../contacto/contacto.html"
+            style="color: black; text-decoration: none"
+            >Contacto</a
+          >
         </li>
         <li style="display: inline">
-          <a href="../buscar/buscar.html" style="color: black">Buscar</a>
+          <a
+            href="../buscar/buscar.html"
+            style="color: black; text-decoration: none"
+            >Buscar</a
+          >
         </li>
       </ul>
     </nav>
@@ -150,6 +170,7 @@
           <br />
           <div>
             <form action="buscar.html" method="get">
+              <h2 style="text-align: center">Mi Horario</h2>
               <label for="Fecha">Escoge Fecha</label>
               <input type="datetime-local" name="fecha" id="fecha" />
 
@@ -168,7 +189,7 @@
           <br />
 
           <div>
-            <h2>Horario del Ingeniero</h2>
+            <h2 style="text-align: center">Horario del Ingeniero</h2>
             <form action="buscar.html" method="get">
               <label for="asignatura">Asignatura</label>
               <select name="asignatura" id="asignatura" required>
@@ -213,6 +234,173 @@
             </button>
           </div>
         </form>
+      </section>
+
+      <section>
+        <div style="margin-bottom: 10px">
+          <form action="buscar.html" method="get">
+            <h2>Temas de interés</h2>
+
+            <fieldset>
+              <label style="padding: 3px">
+                Salud Pública
+                <input
+                  type="checkbox"
+                  name="interes"
+                  id="salud"
+                  value="salud-publica"
+                />
+              </label>
+
+              <label style="padding: 3px">
+                Geopolítica
+                <input
+                  type="checkbox"
+                  name="interes"
+                  id="geopolitica"
+                  value="geopolitica"
+                />
+              </label>
+
+              <label style="padding: 3px">
+                Derechos Humanos
+                <input
+                  type="checkbox"
+                  name="interes"
+                  id="derechos"
+                  value="derechos-humanos"
+                />
+              </label>
+
+              <label style="padding: 3px">
+                Deporte
+                <input
+                  type="checkbox"
+                  name="interes"
+                  id="deporte"
+                  value="deporte"
+                />
+              </label>
+
+              <label style="padding: 3px">
+                Entretenimiento
+                <input
+                  type="checkbox"
+                  name="interes"
+                  id="entretenimiento"
+                  value="entretenimiento"
+                />
+              </label>
+
+              <label style="padding: 3px">
+                Política
+                <input
+                  type="checkbox"
+                  name="interes"
+                  id="politica"
+                  value="politica"
+                />
+              </label>
+
+              <label style="padding: 3px">
+                Seguridad
+                <input
+                  type="checkbox"
+                  name="interes"
+                  id="seguridad"
+                  value="seguridad"
+                />
+              </label>
+
+              <label style="padding: 3px">
+                Economía
+                <input
+                  type="checkbox"
+                  name="interes"
+                  id="economia"
+                  value="economia"
+                />
+              </label>
+
+              <label style="padding: 3px">
+                Clima
+                <input
+                  type="checkbox"
+                  name="interes"
+                  id="clima"
+                  value="clima"
+                />
+              </label>
+
+              <label style="padding: 3px">
+                Tecnología
+                <input
+                  type="checkbox"
+                  name="interes"
+                  id="tecnologia"
+                  value="tecnologia"
+                />
+              </label>
+
+              <br /><br />
+
+              <button type="submit">Enviar</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <form action="buscar.html" method="get">
+            <h2>Frecuencia</h2>
+
+            <fieldset>
+              <label>
+                Diario
+                <input
+                  type="radio"
+                  name="frecuencia"
+                  id="diario"
+                  value="diario"
+                />
+              </label>
+
+              <label>
+                Semanal
+                <input
+                  type="radio"
+                  name="frecuencia"
+                  id="semana"
+                  value="semanal"
+                />
+              </label>
+
+              <label>
+                Mes
+                <input
+                  type="radio"
+                  name="frecuencia"
+                  id="mes"
+                  value="mensual"
+                />
+              </label>
+
+              <label>Codigo 3 letras y 2 numeros</label>
+              <input
+                type="text"
+                name="codigo"
+                id="codigo"
+                pattern="[A-Za-z]{3}[0-9]{2}"
+                title="Tres letras seguidas de dos numeros"
+              />
+              <button type="submit">Enviar</button>
+              <br />
+              <br />
+              <button type="submit">Enviar</button>
+            </fieldset>
+          </form>
+        </div>
       </section>
     </main>
 
