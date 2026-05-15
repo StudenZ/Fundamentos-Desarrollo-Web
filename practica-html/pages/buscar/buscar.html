@@ -4,118 +4,63 @@
     <meta charset="UTF-8" />
     <title>Buscar</title>
   </head>
-  <body style="background-color: lightgray">
-    <header style="background-color: darkblue; color: white; padding: 10px">
-      <h1 style="text-align: center">Buscar</h1>
+  <body style="background-color: lightgray;">
+    <header style="background-color: darkblue; color: white; padding: 10px;">
+      <h1 style="text-align: center;">Buscar</h1>
     </header>
 
-    <nav style="background-color: lightblue; padding: 10px">
-      <ul style="list-style-type: none; text-align: center">
-        <li style="display: inline; margin-right: 10px">
-          <a href="../../index.html" style="color: black; text-decoration: none"
-            >Inicio</a
-          >
-        </li>
-        <li style="display: inline; margin-right: 10px">
-          <a
-            href="../sobreMi/sobreMi.html"
-            style="color: black; text-decoration: none"
-            >Sobre mí</a
-          >
-        </li>
-        <li style="display: inline; margin-right: 10px">
-          <a
-            href="../objetivos/objetivos.html"
-            style="color: black; text-decoration: none"
-            >Objetivos</a
-          >
-        </li>
-        <li style="display: inline; margin-right: 10px">
-          <a
-            href="../intereses/intereses.html"
-            style="color: black; text-decoration: none"
-            >Intereses</a
-          >
-        </li>
-        <li style="display: inline; margin-right: 10px">
-          <a
-            href="../universidad/universidad.html"
-            style="color: black; text-decoration: none"
-            >Universidad</a
-          >
-        </li>
-        <li style="display: inline; margin-right: 10px">
-          <a
-            href="../contacto/contacto.html"
-            style="color: black; text-decoration: none"
-            >Contacto</a
-          >
-        </li>
-        <li style="display: inline">
-          <a
-            href="../buscar/buscar.html"
-            style="color: black; text-decoration: none"
-            >Buscar</a
-          >
-        </li>
+    <nav style="background-color: lightblue; padding: 10px;">
+      <ul style="list-style-type: none; text-align: center;">
+        <li style="display: inline; margin-right: 10px;"><a href="../../index.html" style="color: black; text-decoration: none;">Inicio</a></li>
+        <li style="display: inline; margin-right: 10px;"><a href="../sobreMi/sobreMi.html" style="color: black; text-decoration: none;">Sobre mí</a></li>
+        <li style="display: inline; margin-right: 10px;"><a href="../objetivos/objetivos.html" style="color: black; text-decoration: none;">Objetivos</a></li>
+        <li style="display: inline; margin-right: 10px;"><a href="../intereses/intereses.html" style="color: black; text-decoration: none;">Intereses</a></li>
+        <li style="display: inline; margin-right: 10px;"><a href="../universidad/universidad.html" style="color: black; text-decoration: none;">Universidad</a></li>
+        <li style="display: inline; margin-right: 10px;"><a href="../contacto/contacto.html" style="color: black; text-decoration: none;">Contacto</a></li>
+        <li style="display: inline;"><a href="../buscar/buscar.html" style="color: black; text-decoration: none;">Buscar</a></li>
       </ul>
     </nav>
 
-    <main
-      style="
-        background-color: white;
-        margin: 20px;
-        padding: 15px;
-        border: 1px solid black;
-      "
-    >
-      <section
-        id="formulario-busqueda"
-        style="
-          background-color: lightyellow;
-          margin: 20px;
-          padding: 15px;
-          border: 1px dashed gray;
-        "
-      >
-        <h2 style="color: darkblue">Formulario de búsqueda</h2>
+    <main style="background-color: white; margin: 20px; padding: 15px; border: 1px solid black;">
+      <section id="formulario-busqueda" style="background-color: lightyellow; margin: 20px; padding: 15px; border: 1px dashed gray;">
+        <h2 style="color: darkblue;">Formulario de búsqueda</h2>
 
-        <form method="GET" action="buscar.html" style="color: black">
-          <div style="margin-bottom: 10px">
-            <label for="tema">Tema:</label><br />
+        <form method="GET" action="buscar.html" style="color: black; text-decoration: none;">
+          <div style="margin-bottom: 10px;">
+            <label for="tema">Tema:</label><br>
             <input
               placeholder="Ingresa tu tema"
               type="text"
               id="tema"
               name="tema"
-              style="padding: 5px; width: 200px"
+              style="padding: 5px; width: 200px;"
             />
           </div>
 
-          <div style="margin-bottom: 10px">
-            <label for="clave">Contraseña:</label><br />
+          <div style="margin-bottom: 10px;">
+            <label for="clave">Contraseña:</label><br>
             <input
               placeholder="Ingresa tu contraseña"
               type="password"
               id="clave"
               name="clave"
-              style="padding: 5px; width: 200px"
+              style="padding: 5px; width: 200px;"
             />
           </div>
 
-          <div style="margin-bottom: 10px">
-            <label for="correo">Correo electrónico:</label><br />
+          <div style="margin-bottom: 10px;">
+            <label for="correo">Correo electrónico:</label><br>
             <input
               placeholder="Ingresa tu Correo"
               type="email"
               id="correo"
               name="correo"
-              style="padding: 5px; width: 200px"
+              style="padding: 5px; width: 200px;"
             />
           </div>
 
-          <div style="margin-bottom: 10px">
-            <label for="edad">Edad:</label><br />
+          <div style="margin-bottom: 10px;">
+            <label for="edad">Edad:</label><br>
             <input
               placeholder="tu edad"
               type="number"
@@ -123,22 +68,17 @@
               name="edad"
               min="15"
               max="50"
-              style="padding: 5px; width: 100px"
+              style="padding: 5px; width: 100px;"
             />
           </div>
 
-          <div style="margin-bottom: 10px">
-            <label for="fecha">Fecha:</label><br />
-            <input
-              type="date"
-              id="fecha"
-              name="fecha"
-              style="padding: 5px; width: 150px"
-            />
+          <div style="margin-bottom: 10px;">
+            <label for="fecha">Fecha:</label><br>
+            <input type="date" id="fecha" name="fecha" style="padding: 5px; width: 150px;" />
           </div>
 
-          <div style="margin-bottom: 10px">
-            <p style="margin-bottom: 5px">Intereses de búsqueda:</p>
+          <div style="margin-bottom: 10px;">
+            <p style="margin-bottom: 5px;">Intereses de búsqueda:</p>
             <label
               ><input type="checkbox" name="interes" value="html" /> HTML</label
             >
@@ -151,267 +91,31 @@
             >
           </div>
 
-          <div style="margin-bottom: 10px">
+          <div style="margin-bottom: 10px;">
             <label for="color">Color favorito:</label>
             <input type="color" id="color" name="color" />
           </div>
 
-          <div style="margin-bottom: 10px">
+          <div style="margin-bottom: 10px;">
             <label for="comentario">Comentarios:</label><br />
             <textarea
               id="comentario"
               name="comentario"
               rows="4"
               cols="40"
-              style="padding: 5px"
+              style="padding: 5px;"
             ></textarea>
           </div>
-          <br />
-          <br />
-          <div>
-            <form action="buscar.html" method="get">
-              <h2 style="text-align: center">Mi Horario</h2>
-              <label for="Fecha">Escoge Fecha</label>
-              <input type="datetime-local" name="fecha" id="fecha" />
 
-              <label for="Materia">Materia</label>
-              <input
-                type="text"
-                name="materia"
-                id="materia"
-                placeholder="Ingrese Materia"
-              />
-              <br />
-              <button type="button">Enviar</button>
-            </form>
-          </div>
-          <br />
-          <br />
-
-          <div>
-            <h2 style="text-align: center">Horario del Ingeniero</h2>
-            <form action="buscar.html" method="get">
-              <label for="asignatura">Asignatura</label>
-              <select name="asignatura" id="asignatura" required>
-                <option value="Programacion">Programacion</option>
-                <option value="Quimica">Quimica</option>
-                <option value="Estructura">Estructura</option>
-                <option value="Ingles">Ingles</option>
-                <option value="Fisica">Fisica</option>
-              </select>
-              <label for="Hora">Hora</label>
-              <input
-                type="time"
-                name="hora"
-                id="hora"
-                min="08:00"
-                max="17:00"
-                step="1800"
-                required
-              />
-              <br />
-              <button type="submit">Enviar</button>
-            </form>
-          </div>
-
-          <div style="margin-top: 15px">
-            <button
-              type="submit"
-              name="Enviar"
-              style="
-                padding: 5px 15px;
-                background-color: darkblue;
-                color: white;
-              "
-            >
-              Enviar
-            </button>
-            <button
-              type="reset"
-              style="padding: 5px 15px; background-color: gray; color: white"
-            >
-              Limpiar
-            </button>
+          <div style="margin-top: 15px;">
+            <button type="submit" style="padding: 5px 15px; background-color: darkblue; color: white;">Enviar</button>
+            <button type="reset" style="padding: 5px 15px; background-color: gray; color: white;">Limpiar</button>
           </div>
         </form>
       </section>
-
-      <section>
-        <div style="margin-bottom: 10px">
-          <form action="buscar.html" method="get">
-            <h2>Temas de interés</h2>
-
-            <fieldset>
-              <label style="padding: 3px">
-                Salud Pública
-                <input
-                  type="checkbox"
-                  name="interes"
-                  id="salud"
-                  value="salud-publica"
-                />
-              </label>
-
-              <label style="padding: 3px">
-                Geopolítica
-                <input
-                  type="checkbox"
-                  name="interes"
-                  id="geopolitica"
-                  value="geopolitica"
-                />
-              </label>
-
-              <label style="padding: 3px">
-                Derechos Humanos
-                <input
-                  type="checkbox"
-                  name="interes"
-                  id="derechos"
-                  value="derechos-humanos"
-                />
-              </label>
-
-              <label style="padding: 3px">
-                Deporte
-                <input
-                  type="checkbox"
-                  name="interes"
-                  id="deporte"
-                  value="deporte"
-                />
-              </label>
-
-              <label style="padding: 3px">
-                Entretenimiento
-                <input
-                  type="checkbox"
-                  name="interes"
-                  id="entretenimiento"
-                  value="entretenimiento"
-                />
-              </label>
-
-              <label style="padding: 3px">
-                Política
-                <input
-                  type="checkbox"
-                  name="interes"
-                  id="politica"
-                  value="politica"
-                />
-              </label>
-
-              <label style="padding: 3px">
-                Seguridad
-                <input
-                  type="checkbox"
-                  name="interes"
-                  id="seguridad"
-                  value="seguridad"
-                />
-              </label>
-
-              <label style="padding: 3px">
-                Economía
-                <input
-                  type="checkbox"
-                  name="interes"
-                  id="economia"
-                  value="economia"
-                />
-              </label>
-
-              <label style="padding: 3px">
-                Clima
-                <input
-                  type="checkbox"
-                  name="interes"
-                  id="clima"
-                  value="clima"
-                />
-              </label>
-
-              <label style="padding: 3px">
-                Tecnología
-                <input
-                  type="checkbox"
-                  name="interes"
-                  id="tecnologia"
-                  value="tecnologia"
-                />
-              </label>
-
-              <br /><br />
-
-              <button type="submit">Enviar</button>
-            </fieldset>
-          </form>
-        </div>
-      </section>
-
-      <section>
-        <div>
-          <form action="buscar.html" method="get">
-            <h2>Frecuencia</h2>
-
-            <fieldset>
-              <label>
-                Diario
-                <input
-                  type="radio"
-                  name="frecuencia"
-                  id="diario"
-                  value="diario"
-                />
-              </label>
-
-              <label>
-                Semanal
-                <input
-                  type="radio"
-                  name="frecuencia"
-                  id="semana"
-                  value="semanal"
-                />
-              </label>
-
-              <label>
-                Mes
-                <input
-                  type="radio"
-                  name="frecuencia"
-                  id="mes"
-                  value="mensual"
-                />
-              </label>
-
-              <label>Codigo 3 letras y 2 numeros</label>
-              <input
-                type="text"
-                name="codigo"
-                id="codigo"
-                pattern="[A-Za-z]{3}[0-9]{2}"
-                title="Tres letras seguidas de dos numeros"
-              />
-              <button type="submit">Enviar</button>
-              <br />
-              <br />
-              <button type="submit">Enviar</button>
-            </fieldset>
-          </form>
-        </div>
-      </section>
     </main>
 
-    <footer
-      style="
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 15px;
-      "
-    >
+    <footer style="background-color: black; color: white; text-align: center; padding: 15px;">
       <p>Creado por Moises Valencia Ramirez</p>
       <p>Clase de fundamentos web - HTML Semantico</p>
       <p>ING. Sistemas</p>

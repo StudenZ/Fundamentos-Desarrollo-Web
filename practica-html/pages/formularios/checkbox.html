@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario con Checkbox</title>
+</head>
+
+<body style="background-color: lightgray;">
+    <header style="background-color: darkblue; color: white; padding: 10px;">
+        <h1 style="text-align: center;">Formulario con Checkbox</h1>
+    </header>
+
+    <nav style="background-color: lightblue; padding: 10px;">
+        <ul style="list-style-type: none; text-align: center;">
+            <li style="display: inline; margin-right: 10px;"><a href="../../index.html"
+                    style="color: black; text-decoration: none;">Inicio</a></li>
+            <li style="display: inline; margin-right: 10px;"><a href="../sobreMi/sobreMi.html"
+                    style="color: black; text-decoration: none;">Sobre mí</a></li>
+            <li style="display: inline; margin-right: 10px;"><a href="../objetivos/objetivos.html"
+                    style="color: black; text-decoration: none;">Objetivos</a></li>
+            <li style="display: inline; margin-right: 10px;"><a href="../intereses/intereses.html"
+                    style="color: black; text-decoration: none;">Intereses</a></li>
+            <li style="display: inline; margin-right: 10px;"><a href="../universidad/universidad.html"
+                    style="color: black; text-decoration: none;">Universidad</a></li>
+            <li style="display: inline; margin-right: 10px;"><a href="../contacto/contacto.html"
+                    style="color: black; text-decoration: none;">Contacto</a></li>
+            <li style="display: inline;"><a href="../formularios/formularios.html"
+                    style="color: black; text-decoration: none;">Formularios</a></li>
+        </ul>
+    </nav>
+
+    <nav style="background-color: #e0f7fa; padding: 10px; text-align: center; border-bottom: 1px solid gray;">
+        <span style="font-weight: bold; margin-right: 10px; color: darkblue;">Navegación de Formularios:</span>
+        <a href="busqueda.html"
+            style="color: black; margin-right: 10px; text-decoration: none; font-weight: bold;">Búsqueda</a> |
+        <a href="lista.html"
+            style="color: black; margin-right: 10px; margin-left: 10px; text-decoration: none; font-weight: bold;">Lista</a>
+        |
+        <a href="checkbox.html"
+            style="color: black; margin-right: 10px; margin-left: 10px; text-decoration: none; font-weight: bold;">Checkbox</a>
+        |
+        <a href="fecha.html"
+            style="color: black; margin-right: 10px; margin-left: 10px; text-decoration: none; font-weight: bold;">Fecha</a>
+        |
+        <a href="login.html"
+            style="color: black; margin-left: 10px; text-decoration: none; font-weight: bold;">Login</a>
+    </nav>
+
+    <main style="background-color: white; margin: 20px; padding: 15px; border: 1px solid black; text-align: center;">
+        <h2 style="color: darkblue;">Tus Intereses</h2>
+        <form action="resultados.html" method="GET" style="margin: 20px; text-align: left; display: inline-block;">
+            <p style="font-size: 18px; color: black;">Selecciona tus lenguajes favoritos:</p>
+            <label style="display: block; margin-bottom: 5px; font-size: 16px;">
+                <input type="checkbox" name="intereses[]" value="HTML"> HTML
+            </label>
+            <label style="display: block; margin-bottom: 5px; font-size: 16px;">
+                <input type="checkbox" name="intereses[]" value="CSS"> CSS
+            </label>
+            <label style="display: block; margin-bottom: 5px; font-size: 16px;">
+                <input type="checkbox" name="intereses[]" value="JavaScript"> JavaScript
+            </label>
+            <br>
+            <button type="submit"
+                style="padding: 10px 20px; background-color: darkblue; color: white; border: none; cursor: pointer;">Enviar</button>
+        </form>
+    </main>
+
+    <footer style="background-color: black; color: white; text-align: center; padding: 15px;">
+        <p>Creado por Moises Valencia Ramirez</p>
+        <p>Clase de fundamentos web - HTML Semantico</p>
+        <p>ING. Sistemas</p>
+    </footer>
+</body>
+
+</html>

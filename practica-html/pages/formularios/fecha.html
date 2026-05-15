@@ -2,11 +2,11 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Sobre mí</title>
+    <title>Formulario con Fecha</title>
 </head>
 <body style="background-color: lightgray;">
     <header style="background-color: darkblue; color: white; padding: 10px;">
-        <h1 style="text-align: center;">Sobre mí</h1>
+        <h1 style="text-align: center;">Formulario con Fecha</h1>
     </header>
 
     <nav style="background-color: lightblue; padding: 10px;">
@@ -21,16 +21,23 @@
         </ul>
     </nav>
 
-    <main style="background-color: white; margin: 20px; padding: 15px; border: 1px solid black;">
-        <section id="sobre-mi" style="background-color: white; margin: 20px; padding: 15px; border: 1px solid black;">
-            <h2 style="color: darkblue;">Sobre mi</h2>
-            <p style="color: black; text-decoration: none;">Mi nombre es Moises Valencia Ramirez estoy aprendiendo HTML y este es un proyecto de clase.</p>
-        </section>
+    <nav style="background-color: #e0f7fa; padding: 10px; text-align: center; border-bottom: 1px solid gray;">
+        <span style="font-weight: bold; margin-right: 10px; color: darkblue;">Navegación de Formularios:</span>
+        <a href="busqueda.html" style="color: black; margin-right: 10px; text-decoration: none; font-weight: bold;">Búsqueda</a> |
+        <a href="lista.html" style="color: black; margin-right: 10px; margin-left: 10px; text-decoration: none; font-weight: bold;">Lista</a> |
+        <a href="checkbox.html" style="color: black; margin-right: 10px; margin-left: 10px; text-decoration: none; font-weight: bold;">Checkbox</a> |
+        <a href="fecha.html" style="color: black; margin-right: 10px; margin-left: 10px; text-decoration: none; font-weight: bold;">Fecha</a> |
+        <a href="login.html" style="color: black; margin-left: 10px; text-decoration: none; font-weight: bold;">Login</a>
+    </nav>
 
-        <aside style="background-color: lightyellow; padding: 10px; border: 1px dashed gray; margin: 20px;">
-            <h2 style="color: darkblue;">Dato adicional</h2>
-            <p style="color: black; text-decoration: none;">La IA es una herramienta muy util para aprender a programar. Pero es importante aprender a programar sin IA.</p>
-        </aside>
+    <main style="background-color: white; margin: 20px; padding: 15px; border: 1px solid black; text-align: center;">
+        <h2 style="color: darkblue;">Registrar Fecha</h2>
+        <form action="resultados.html" method="GET" style="margin: 20px;">
+            <label for="fechaNacimiento" style="font-size: 18px; color: black;">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required style="padding: 5px; margin-left: 10px;">
+            <br><br>
+            <button type="submit" style="padding: 10px 20px; background-color: darkblue; color: white; border: none; cursor: pointer;">Enviar</button>
+        </form>
     </main>
 
     <footer style="background-color: black; color: white; text-align: center; padding: 15px;">
